@@ -1,4 +1,7 @@
 # Stock Viewer
+
+<img src="demo.gif" height=300>
+
 This is a practice project for me on how to build a web app using C#, HTML, CSS, JavaScript, ASP.Net Core, Razor Pages and Bootstrap.
 
 The motivational context is to create an educational style website about technical indicators used in financial markets trading and analysis.
