@@ -34,22 +34,6 @@
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Display Stock</button>
             </div>
-
-            @*debug*@
-            @*<p>Selection: @Model.Yh.Ticker</p>
-            <p>Start Date: @Model.Yh.DateFrom</p>
-            <p>End Date: @Model.Yh.DateTo</p>
-            <p>Granularity: @Model.Yh.TimeFrame</p>
-            <div id="tabel">
-                <p>@Model._prices.Count candles in specified range</p>
-                <p>Ticker: @Model._prices[0].Ticker</p>
-                <p>First date: @Model._prices[0].Date</p>
-                <p>First open: @Model._prices[0].Open</p>
-                <p>First high: @Model._prices[0].High</p>
-                <p>First low: @Model._prices[0].Low</p>
-                <p>First close: @Model._prices[0].Close</p>
-            </div>*@
-
         </form>
     </div>
 
@@ -68,9 +52,9 @@
     <script src="https://code.highcharts.com/stock/highstock.js"></script>
     <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
 
-    @*<script>
+    <script>
             $.fn.datepicker.defaults.format = "dd/mm/yyyy";
-        </script>*@
+        </script>
 
     <script>
         $('.input-daterange input').each(function () {
