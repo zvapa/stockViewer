@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using YahooFinanceApi;
 
 namespace StockViewer.Models
 {
-	/// <summary>
-	/// A class designed to retrieve historical stock price data from Yahoo Finance.
-	/// </summary>
-	public class YahooStockData : IStockDataProvider
+    /// <summary>
+    /// A class designed to retrieve historical stock price data from Yahoo Finance.
+    /// </summary>
+    public class YahooStockData : IStockDataProvider
 	{
 		/// <summary>
 		/// Gets historical prices from Yahoo Finance given the specified configuration.

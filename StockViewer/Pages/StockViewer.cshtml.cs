@@ -33,7 +33,6 @@ namespace StockViewer.Pages
             this.Yh = new YahooHistoryConfig();
         }
 
-        #region requests
         public void OnGet()
         {
             this.ResetFormEnumLists();
@@ -49,7 +48,6 @@ namespace StockViewer.Pages
             this.ChartSeriesData = GetChartSeriesData(_prices);
             return this.Page();
         }
-        #endregion
 
         private void ResetFormEnumLists()
         {
